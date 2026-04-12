@@ -1,8 +1,9 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Activity, Plus, HelpCircle, LayoutDashboard } from 'lucide-react';
+import { Activity, Plus, HelpCircle, LayoutDashboard, BarChart2 } from 'lucide-react';
 
 const NAV = [
   { to: '/', label: 'Dashboard', icon: LayoutDashboard },
+  { to: '/analytics', label: 'Analytics', icon: BarChart2 },
   { to: '/triggers/new', label: 'Add Trigger', icon: Plus },
   { to: '/how-it-works', label: 'How It Works', icon: HelpCircle },
 ];
